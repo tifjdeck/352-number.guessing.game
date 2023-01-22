@@ -1,5 +1,6 @@
 # 352-number.guessing.game
 Repoisitory for a number guessing game.
+
 Name: Tiffany Decker
 
 Date: 01/22/2023
