@@ -23,7 +23,7 @@ How do we run your program? Does it expect any Inputs?
 ## Notes
 Any extra notes, such as:
 * What is working?
-      * Using whole number integers for your answers works.
+  * Using whole number integers for your answers works.
 * What are the limitations of your program?
   * I thought I fixed it, however, I did not as of now. Please don't try to input words, as it will try to change your string into a 32-bit int and it will crash.
 * What design decisoins did you make?
