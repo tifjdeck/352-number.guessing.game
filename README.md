@@ -29,4 +29,4 @@ Any extra notes, such as:
 * What design decisoins did you make?
   * I tried to make the prompts more accurate explanation wise, witout making it too wordy.
 * Is there anything you wish to draw our attention to? (cool trick, extra credit, strange logic, problem area, etc)
-  * Not really, as I am lucky I got this to work to begin with. I hope to do better stuff as I get used to C# and Visual Studio.
+  * I did the extra credit so that you can select your own bounds.
