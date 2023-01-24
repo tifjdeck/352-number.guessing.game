@@ -14,11 +14,17 @@ namespace program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("I am thinking of a number between 0 and 100.");
+
+        Console.WriteLine("For the number guessing game, pick a lower bound: ");
+        int LowerBound = Convert.ToInt32(Console.ReadLine());
+        //This code was found at https://www.tutorialsteacher.com/articles/generate-random-numbers-in-csharp
+        Console.WriteLine("Now, pick an upper bound: ");
+        int UpperBound = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("I am thinking of a number between " + LowerBound + " and " + UpperBound + ".");
 
         Random rnd = new Random();
-        int RandNum = rnd.Next(0, 101);
-        //This code was found at https://www.tutorialsteacher.com/articles/generate-random-numbers-in-csharp
+        int RandNum = rnd.Next(LowerBound, UpperBound + 1);
 
         Console.WriteLine("Take a guess: ");
         int UserGuess = Convert.ToInt32(Console.ReadLine());
